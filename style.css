@@ -1,0 +1,1084 @@
+
+
+body
+{
+font-family: 'Poppins';
+}
+
+header img
+{
+    padding-bottom: 10px;
+}
+header .contenedor 
+{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+    
+}
+
+li
+{
+    list-style: none;
+}
+
+.contenedor
+{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+ 
+
+header ul
+{
+    display: flex;
+    
+    
+}
+
+header ul li
+{
+    margin-right: 20px;
+    
+    
+        
+}
+
+header ul li a 
+{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+header p
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#encabezado
+{
+    background: 
+    url(./imagenes/fondoIncio.jpg);
+    background-size: cover;
+    padding: 100px 0 ;
+    border: 1px solid black;
+    }
+
+h1
+{
+    font-size: 80px;
+    font-family: "CHANEWEI",Helvetica,Arial,sans-serif;
+    color: white;
+    margin-bottom: 0;
+}
+
+#encabezado p
+{
+ color: hwb(0 100% 0%);
+ font-weight:bold;
+ font-size: 30px;   
+}
+
+.columnas
+{
+    display: flex   ;
+   
+}
+
+.columna1 img
+{
+    width: 190%;
+    height: 70%;    
+    border: 1.5px solid black;
+    
+}
+
+.columna2 p 
+{
+padding-left: 300px;
+font-family: "OpenSans",Helvetica,Arial,sans-serif;
+margin-bottom: 80px;
+
+
+
+}
+
+.columnas p
+{
+    line-height:35px;
+    
+}
+
+.contenedor h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: "CHANEWEI",Helvetica,Arial,sans-serif;
+    color: #333;
+}
+
+.contenedorArticulo
+{
+    border-top: 1px solid black;
+        display: flex;
+        line-height: 28px;
+        
+}
+
+.articulo1 h3
+{
+    font-size: 24px;
+    padding-left: 35px;
+    
+    
+}
+
+.articulo1 ul li
+{
+    list-style: circle;
+    font-size:20px ;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.articulo2 h3 
+{
+    font-size: 25px;
+    padding-left: 35px;
+       
+}
+
+.articulo2 ul li
+{
+    font-size:20px ;
+    padding-left: 20px;
+    list-style: circle;
+    padding-top: 0;
+}
+
+.articulo3 h3
+{
+    font-size:25px ;
+    padding-left: 100px;
+}
+
+.articulo3 ul li 
+{
+    font-size:20px ;
+    padding-left: 25px;   
+    list-style: circle;
+}
+
+footer
+{
+    background-color: rgb(83, 81, 81);
+    border:2px solid gray ;
+    display: flex;
+    
+}
+
+.contenedorFooter h2
+{
+ color: #FFFFFF;
+font-size: 20px;
+
+padding-top: 10px;
+padding-left: 65px;
+}
+
+.contenedorFooter p
+{
+    font-size: 20px;
+    padding-left: 20px;
+    color: #FFFFFF;
+    font-family:'Nunito';
+}
+
+.contenedorFooter img
+{
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.mapa
+{
+    padding-left: 450px;
+    padding-top: 70px;  
+       
+}
+
+/* JARDIN  JARDIN  JARDIN  JARDIN  JARDIN  JARDIN  JARDIN  JARDIN  JARDIN  JARDIN  JARDIN  JARDIN  JARDIN  JARDIN*/
+
+.encabezadoJardin
+{
+    
+    display: flex;
+    
+}
+
+.columnaTexto h1
+{
+    color:black;
+    padding-left: 100px;
+    padding-top:10px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    
+}
+
+.columnaTexto p
+{
+    font-family: "CHANEWEI",Helvetica,Arial,sans-serif;
+    padding-left: 20px;
+    line-height: 40px;
+    padding-right: 30px;
+}
+
+.imagenTexto img
+{
+    padding-top: 80px;
+    height: 600px;
+    border-radius: 25%;    
+}
+
+.contenedorMapa h2
+{
+    border-top: 1px solid black;
+    padding-top: 10px;
+    font-family: cursive;
+    font-size: 35px;
+    text-align: center;
+}
+
+.contenedorMapa img
+{
+    padding-left: 0;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items:center; 
+}
+
+/* SERVICIO SERVICIO SERVICIO SERVICIO SERVICIO SERVICIO SERVICIO SERVICIO SERVICIO SERVICIO SERVICIO SERVICIO  SERVICIO*/
+
+#encabezadoServicio
+{
+        display: flex;
+}
+
+#encabezadoServicio img
+{
+    height: 550px;
+    width: 660px;
+    border-radius: 1px;
+    padding: 0 10px 0 10px;
+    padding-left: 0px;
+}
+
+.servicio h2
+{
+    font-family: "CHANEWEI",Helvetica,Arial,sans-serif;
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+.servicio p
+{
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 20px;
+}
+
+.recomendaciones h2
+{
+    font-family: "CHANEWEI",Helvetica,Arial,sans-serif;
+    padding-left: 20px;  
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.recomendaciones ol li 
+{
+    font-size: 20px;
+    list-style-type:square;
+    line-height: 30px;
+}
+
+.normasSeguridad h2
+{
+    font-family: "CHANEWEI",Helvetica,Arial,sans-serif;
+    padding-left: 20px;  
+    line-height: 30px;
+    font-size: 25px;
+}
+.normasSeguridad p 
+{
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 20px;
+
+}
+
+.normasSeguridad ol li
+{
+    list-style-type:square; 
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.fotografia h2
+{
+    font-family: "CHANEWEI",Helvetica,Arial,sans-serif;
+    padding-left: 20px;  
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.fotografia p 
+{
+    font-size: 20px;
+    font-weight: normal;
+    padding-left: 20px;
+
+
+}
+
+/* AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA*/
+#encabezadoAgenda img
+{
+    width: 1340px;
+    height: 600px;
+    border-radius: 1px  ;
+    padding-bottom: 5px;
+}
+
+.contenedorAgenda
+{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    padding-bottom: 70px;
+}
+
+.dia
+{
+    padding-left: 150px;
+}
+.dia img 
+{
+    width: 250px;
+    height: 230px;
+    padding-left: 20px;
+}
+
+.dia h2
+{
+    padding-left:60px;
+    padding-top: 23px;
+    font-family:'Lora';
+}
+
+.casamientos img
+{
+    width: 250px;
+    height: 230px;
+    padding-left: 90px;
+    padding-right: 30px;
+}
+
+.casamientos h2
+{
+    padding-left: 150px;
+    padding-top: 24px;
+    font-family:'Lora';
+}
+
+.artesanias img
+{
+    width: 250px;
+    height: 240px;   
+    padding-left: 50px;
+}
+
+.artesanias h2
+{
+    padding-top: 27px;
+    padding-left: 80px;
+    font-family:'Lora';
+}
+
+.caminataNocturna
+{
+    padding-top: 20px;
+    padding-left: 170px;
+}
+
+.caminataNocturna h2
+{
+    padding-left: 25px;
+    font-family:'Lora';
+}
+
+.caminataNocturna img
+{
+    width: 250px;
+    height: 240px;
+}
+
+.hortalizas
+{
+    padding-top: 20px;
+    
+}
+.hortalizas img
+{
+    width: 250px;
+    height: 240px;
+    padding-left: 90px;
+    
+}
+
+.hortalizas h2
+{
+    padding-left: 120px;
+    font-family:'Lora';
+}
+
+.pinturas
+{
+    padding-top: 19px;
+}
+.pinturas h2
+{
+    padding-left: 100px;
+    font-family:'Lora';
+}
+
+.pinturas img
+{
+    width: 250px;
+    height: 240px;
+    padding-left: 80px;
+}
+
+
+/* PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS*/
+
+.encabezadoPaseos h1
+{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+.encabezadoPaseos
+{
+    padding-bottom: 20px;
+     background-color: burlywood;
+}
+
+.columnas
+{
+    display:flex;
+   
+    
+    justify-content: center;
+    justify-content: flex-start;
+   
+    
+}
+.columna1 
+{
+    padding-left: 30px;
+    padding-top: 50px;
+    
+}
+.columna1 img
+{
+
+    width: 335px;
+    height: 270px;
+   
+       
+}
+
+
+.columna1 h2
+{
+    padding-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+.columna1 p
+{
+    padding-left: 10px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.columna2  h2
+{
+padding-left: 265px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.columna2 img
+{
+    
+    padding-left: 130px;
+     padding-top: 50px;
+    width: 335px;
+    height: 270px;
+    
+}
+
+.columna2 p
+{
+    padding-left: 135px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.columna3 
+{
+    padding-left: 30px;
+}
+
+.columna3 img
+{
+    width: 335px;
+    height: 270px;
+    padding-top: 50px;
+    padding-left: 45px;
+}
+
+.columna3 h2
+{
+
+    padding-left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.columna3 p
+{
+    padding-left: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+
+.columnas2parte
+{
+    display:flex;
+    flex-direction: row; 
+    padding-bottom: 35px;   
+}
+.columna4 h2 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+}
+
+.columna4 p
+{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.columna4 
+{
+    padding-left:30px ;
+
+}
+.columna4 img
+{
+    width: 335px;
+    height: 270px;
+    padding-top: 50px;
+    padding-right: 130px;
+    
+}
+
+.columna5
+{
+padding-top: 50px;
+}
+
+.columna5 img 
+{
+    width: 335px;
+    height: 270px;
+    padding-right: 40px;
+}
+
+.columna5 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+}
+
+.columna5 p
+{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.columna6
+{
+    padding-left: 40px;
+    padding-top: 50px;
+}
+.columna6 img
+{
+    width: 335px;
+    height: 270px;
+    
+}
+
+.columna6 h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+}
+
+.columna6 p
+{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+/*NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES */
+
+.encabezadoNovedades img
+{
+width: 1340px;
+height: 600px;
+padding: 10px 0;
+}
+
+.contenedorNov h2
+{
+ font-family: Arial, Helvetica, sans-serif;   
+ font-size: 35px;
+ text-align: center;
+ border: 1px solid black;
+ border-radius: 20px;
+ background-color: tomato;
+}
+
+.contenedorNov img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 550px;
+    height: 350px;
+    border:1px solid black;
+}
+    
+
+.contenedorNov p
+{
+    font-size: 25px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+  
+}
+.articulo10
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articulo11
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articulo12
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA GALERIA*/
+
+.contenedorGaleria h1
+{
+    color: black;
+    border: 1px solid black;
+    background-color: tomato;
+    border-radius: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.columnasG
+{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(3,1fr);
+   gap: 5px;
+   justify-items:center;
+   padding-bottom: 35px;
+    
+}
+.galeria1 img
+{
+    width: 350px;
+    height:350px;
+    
+    
+}
+
+.galeria2 img
+{
+   
+    width: 350px;
+    height:350px;
+    padding-left: 10px;
+}
+
+.galeria3 img
+{
+    
+    width: 350px;
+    height:350px;
+    padding-left: 10px;
+}
+
+.galeria4 img
+{
+    
+    width: 350px;
+    height:350px;
+    
+}
+
+.galeria5 img
+{
+    
+    width: 350px;
+    height:350px;
+    padding-left: 10px;
+}
+
+.galeria6 img
+{
+    
+    width: 350px;
+    height:350px;
+    
+}
+
+.galeria7 img
+{
+    
+    width: 350px;
+    height:350px;
+    
+}
+
+.galeria8 img
+{
+    
+    width: 350px;
+    height:350px;
+    padding-left: 10px;
+}
+
+.galeria9 img
+{
+    width: 350px;
+    height:350px;
+    padding-left: 4px;
+}
+
+/*MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES */
+
+/*PARA TABLET*/
+@media only screen and (max-width:768px)
+{
+
+}
+    
+/*PARA MOBILE*/
+@media only screen and (max-width: 576px)
+{
+
+    /*Estilos Generales*/
+    
+    header .contenedor
+    {
+                flex-direction: column;
+                align-items:unset;
+    }
+
+    .contenedor img 
+    {
+        width: 250px;
+        padding-left: 150px;
+        padding-bottom: 30px;
+        
+    }
+
+   nav ul{
+    
+    justify-content:center;
+    align-items: center;
+    
+   }
+
+   header ul li a 
+    {
+        font-size: 16px;
+    }
+
+    footer
+    {
+    
+    display: flex;
+    flex-direction: column;
+
+    }
+    .contenedorFooter h2
+    {
+        font-size: 20px;
+        padding-right: 150px;
+        
+    }
+
+    .contenedorFooter p
+    {
+        font-size: 20px;
+        padding-left: 35px;
+    }
+    .contenedorFooter img{
+        padding-left: 200px;
+        width: 300px;
+    }
+
+   footer img
+    {
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .contenedorFooter{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .mapa 
+    {
+        
+        padding-left: 150px;
+        padding-bottom: 50px;
+    }
+
+
+
+    /*Galeria*/
+    .columnasG{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(9,1fr);
+    }
+
+    /*Index*/
+
+    .encabezado{
+        width: 100%;
+    }
+
+    #veni {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .columna2 p
+    {
+        font-size: 20px;
+        padding-top: 400px;
+        padding-right: 300px;
+        text-align:center;
+    }
+    /* SERVICIOS SERVICIOS SERVICIOS SERVICIOS SERVICIOS SERVICIOS SERVICIOS SERVICIOS SERVICIOS SERVICIOS SERVICIOS */
+    #encabezadoServicio img {
+        display: none;
+    }
+
+    .servicio h2 {
+        padding-top: 20px;
+    }
+    /*JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN JARDIN */   
+ 
+    .columnaTexto h1{
+        text-align: center;
+    }
+    .columnaTexto p
+    {
+        padding-right: 0;
+    }
+    .imagenTexto img{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-right: 0;
+        width: 100%;
+    };
+
+    .contenedorMapa img{
+        padding-left: 0;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    };
+
+    /*AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA AGENDA */
+    .contenedorAgenda{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #encabezadoAgenda img {
+        width: 100%;
+    }
+
+    .casamientos{
+        padding-left: 80px;
+    }
+
+    .artesanias{
+        padding-left: 120px;
+    }
+    
+    .hortalizas{
+        padding-left: 80px;
+    }
+
+    .pinturas{
+        padding-left: 90px;
+    }
+
+    /*PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS PASEOS */
+
+    .columnas{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+
+    .columna1 img {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        border: none;
+        padding-left: 100px;
+    }
+
+    .columna1 h2{
+        text-align: center;
+    }
+
+    .columna1 p {
+        text-align: center;
+    }
+
+    .columna2 p{
+        text-align: center;
+        padding: 0;
+    }
+
+    .columna3 img {
+        padding-left: 100px;
+        width: 60%;
+    }
+
+    .columna3 h2 {
+        padding-left: 210px;
+    }
+
+    .columna3 p {
+        padding-left: 100px;
+    }
+
+    .columna4 img {
+        width: 60%;
+        border: none;
+        padding-left: 100px;    
+    }
+
+    .columna4 h2 {
+        padding-left: 210px;
+    }
+
+    .columna4 p {
+        padding-left: 80px;
+    }
+
+    .columna5 img {
+        width: 60%;
+        padding-left: 120px;
+    }
+
+    .columna5 h2 {
+        padding-left: 220px;
+    }
+
+    .columna5 p {
+        padding-left: 120px;
+    }
+
+    .columna6 img {
+        width: 60%;
+        padding-left: 90px;
+    }
+
+    .columna6 h2 {
+        padding-left: 180px;
+    }
+
+    .columna6 p {
+        padding-left: 80px;
+    }
+    .columnas2parte{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES NOVEDADES */
+
+    .encabezadoNovedades img{
+        width: 100%;
+    }
+
+    .articulo10 img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+}
